@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@import "./assets/styles/fonts.css";
 
 @theme {
-  /* Default Tailwind breakpoints + custom ones */
+  /* Custom Breakpoints */
   --breakpoint-xs: 20rem;   /* 320px - small phones */
   --breakpoint-sm: 30rem;   /* 480px - phones */
   --breakpoint-md: 48rem;   /* 768px - tablets */
@@ -9,4 +10,13 @@
   --breakpoint-xl: 80rem;   /* 1280px - desktops */
   --breakpoint-2xl: 96rem;  /* 1536px - large screens */
   --breakpoint-3xl: 120rem; /* 1920px - full HD / widescreen */
+
+  /* Custom Color Palette */
+  --color-charcoal: #1E242C;
+  --color-graphite: #343A40;
+  --color-teal: #00B7C2;
+  --color-light: #F4F4F4;
+
+  --font-coolvetica: "Coolvetica", sans-serif;
+  --font-lemonmilk: "LemonMilk", sans-serif;
 }
